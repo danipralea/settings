@@ -32,7 +32,8 @@ This removes everything from the index, then just run:
 git add .
 Commit it:
 
-git commit -m ".gitignore is now working"`
+git commit -m ".gitignore is now working"
+`
 
 #Terminal#
 
