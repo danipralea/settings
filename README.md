@@ -4,7 +4,9 @@ My tools &amp; settings that I use in iOS Development
 #Terminal#
 
 **iTerm2** : https://www.iterm2.com/
+
 **Theme** : agnoster (add ZSH_THEME=agnoster in your .zshrc file in your home folder --->>> /Users/user_name)
+
 **Solarized Dark Theme**: 
 
 Download and unzip the latest version of the Solarized .zip file (it contains the iTerm2 preset files you’ll need):
