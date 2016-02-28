@@ -6,6 +6,34 @@ My tools &amp; settings that I use in iOS Development
 **Evidentiate cursor** : curl -L https://raw.githubusercontent.com/egold/better-xcode-ibeam-cursor/master/install.sh | bash together with 
 **Solarized Dark** theme : https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode
 
+**Auto-increment build number** script: 
+
+`#!/bin/bash
+buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "$INFOPLIST_FILE")
+buildNumber=$(($buildNumber + 1))
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "$INFOPLIST_FILE"`
+
+**Add existing project to git**:
+
+`git init
+git add .
+git commit -m “First commit”
+git remote add origin <remote respository URL>
+git remote -v
+git push origin master`
+
+**Add .gitignore to an existing project**:
+
+`Commit all pending changes, then run this command:
+
+git rm -r --cached .
+This removes everything from the index, then just run:
+
+git add .
+Commit it:
+
+git commit -m ".gitignore is now working"`
+
 #Terminal#
 
 **iTerm2** : https://www.iterm2.com/
