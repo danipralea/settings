@@ -60,4 +60,6 @@ For more info see the iTerm2 README from solarized.zip - the path to it in the z
 solarized/iterm2-colors-solarized/README.md
 ```
 
-**Font** : `Menlo for Powerline` size 14
+**Font** : `Menlo for Powerline` size 14 for *Regular Font* and use `Anonymice Powerline` 12pt for *Prefs > Profiles > Text > Non-ASCII Font*
+
+**Install Z** : https://gist.github.com/mischah/8149239
