@@ -48,7 +48,8 @@ git commit -m ".gitignore is now working"
 
 **Solarized Dark Theme**: 
 
-```Download and unzip the latest version of the Solarized .zip file (it contains the iTerm2 preset files you’ll need):
+```
+Download and unzip the latest version of the Solarized .zip file (it contains the iTerm2 preset files you’ll need):
 
 http://ethanschoonover.com/solarized/files/solarized.zip
 
@@ -56,6 +57,7 @@ In iTerm2, open “iTerm2 > Preferences > Profiles > Colors”, and click “Loa
 
 For more info see the iTerm2 README from solarized.zip - the path to it in the zip file is:
 
-solarized/iterm2-colors-solarized/README.md```
+solarized/iterm2-colors-solarized/README.md
+```
 
 **Font** : `Menlo for Powerline` size 14
