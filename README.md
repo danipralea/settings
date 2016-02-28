@@ -8,19 +8,23 @@ My tools &amp; settings that I use in iOS Development
 
 **Auto-increment build number** script: 
 
-`#!/bin/bash
+```terminal
+#!/bin/bash
 buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "$INFOPLIST_FILE")
 buildNumber=$(($buildNumber + 1))
-/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "$INFOPLIST_FILE"`
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $buildNumber" "$INFOPLIST_FILE"
+```
 
 **Add existing project to git**:
 
-`git init
+```terminal
+git init
 git add .
 git commit -m “First commit”
 git remote add origin <remote respository URL>
 git remote -v
-git push origin master`
+git push origin master
+```
 
 **Add .gitignore to an existing project**:
 
