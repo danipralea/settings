@@ -44,6 +44,8 @@ git commit -m ".gitignore is now working"
 
 **iTerm2** : https://www.iterm2.com/
 
+**oh-my-zsh** : https://github.com/robbyrussell/oh-my-zsh
+
 **Theme** : agnoster (add ZSH_THEME=agnoster in your .zshrc file in your home folder --->>> /Users/user_name)
 
 **Solarized Dark Theme**: 
