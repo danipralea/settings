@@ -67,5 +67,6 @@ solarized/iterm2-colors-solarized/README.md
 ```
 
 **Font** : `Menlo for Powerline` size 14 for *Regular Font* and use `Anonymice Powerline` 12pt for *Prefs > Profiles > Text > Non-ASCII Font*
+https://github.com/abertsch/Menlo-for-Powerline
 
 **Install Z** : https://gist.github.com/mischah/8149239
